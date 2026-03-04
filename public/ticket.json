@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login page not loading",
+    "description": "Customer reports that the login page keeps spinning and does not load properly.",
+    "customer": "Rahim Uddin",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment failed but money deducted",
+    "description": "Customer was charged but order status shows unpaid.",
+    "customer": "Nusrat Jahan",
+    "priority": "High",
+    "status": "in-progress",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 3,
+    "title": "Unable to reset password",
+    "description": "Password reset email is not being received.",
+    "customer": "Tanvir Hasan",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 4,
+    "title": "Profile image upload error",
+    "description": "System shows error while uploading profile picture.",
+    "customer": "Sadia Akter",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 5,
+    "title": "Dashboard statistics incorrect",
+    "description": "The numbers shown in dashboard do not match actual data.",
+    "customer": "Mehedi Hasan",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 6,
+    "title": "Order confirmation email delayed",
+    "description": "Confirmation email arrives after 30 minutes.",
+    "customer": "Farhana Islam",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 7,
+    "title": "Mobile layout broken",
+    "description": "On smaller devices, the layout overlaps and buttons are hidden.",
+    "customer": "Imran Hossain",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 8,
+    "title": "Search feature not working",
+    "description": "Search returns empty results even when item exists.",
+    "customer": "Jannat Ara",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": 9,
+    "title": "Account suspended without reason",
+    "description": "Customer account was suspended unexpectedly.",
+    "customer": "Arif Hossain",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 10,
+    "title": "Notification settings not saving",
+    "description": "Changes in notification preferences are not stored.",
+    "customer": "Shamima Sultana",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 11,
+    "title": "File download failed",
+    "description": "Reports cannot be downloaded as PDF.",
+    "customer": "Hasib Chowdhury",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": 12,
+    "title": "Session expires too quickly",
+    "description": "User gets logged out within 5 minutes.",
+    "customer": "Mariam Khan",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-06"
+  },
+  {
+    "id": 13,
+    "title": "API response too slow",
+    "description": "Application takes too long to fetch data from server.",
+    "customer": "Shahidul Islam",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-06"
+  },
+  {
+    "id": 14,
+    "title": "Coupon code invalid error",
+    "description": "Valid coupon code shows invalid message.",
+    "customer": "Rupa Das",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-06"
+  },
+  {
+    "id": 15,
+    "title": "Language switch not working",
+    "description": "Changing language does not update content properly.",
+    "customer": "Kamrul Hasan",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-06"
+  }
+]
