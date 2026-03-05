@@ -24,12 +24,13 @@ const Tickets = () => {
         setTaskStatus(taskStatus => taskStatus.filter(taskId => taskId.id !== id))
         setResolved([...resolved,task])
         setProgressCount(progressCount - 1)
-        setResolveCount(resolveCount+1)
+        setResolveCount(resolveCount + 1)
+        setTickets(tickets=> tickets.filter(ticket => ticket.id !== id))
         
     }
     return (
-        <div className='max-w-7xl mx-auto'>
-            <div className='grid grid-cols-2 gap-4 my-4'>
+        <div className='max-w-7xl mx-auto px-8'>
+            <div className='grid md:grid-cols-2 gap-4 my-4'>
                 <div className='bg-linear-to-r from-red-500 to-orange-500 text-center py-8 rounded-2xl'>
                     <h1 className='text-2xl font-bold'>In-progress</h1>
                     <p className='text-lg font-semibold'>{progressCount}</p>
@@ -39,8 +40,8 @@ const Tickets = () => {
                     <p className='text-lg font-semibold'>{resolveCount }</p>
                 </div>
             </div>
-            <div className='grid grid-cols-3 gap-4'>
-                <div className='col-span-2 grid grid-cols-2 gap-4'>
+            <div className='grid md:grid-cols-3 gap-4'>
+                <div className='md:col-span-2 grid md:grid-cols-2 gap-4'>
                     {tickets.map(ticket => (
                         <div onClick={()=>handleTaskStatus(ticket)} className='bg-gray-300 my-2 p-4 rounded-2xl '>
                             <div className='flex justify-between'>
